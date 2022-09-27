@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18C47106284AAA9A008AD750 /* FormuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47105284AAA9A008AD750 /* FormuApp.swift */; };
-		18C47108284AAA9A008AD750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47107284AAA9A008AD750 /* ContentView.swift */; };
 		18C4710A284AAA9A008AD750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C47109284AAA9A008AD750 /* Assets.xcassets */; };
 		18C4710D284AAA9A008AD750 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C4710C284AAA9A008AD750 /* Preview Assets.xcassets */; };
 		18C47111284AAA9A008AD750 /* Formu WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 18C47110284AAA9A008AD750 /* Formu WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -19,6 +18,19 @@
 		18C47125284AAA9B008AD750 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47124284AAA9B008AD750 /* ComplicationController.swift */; };
 		18C47127284AAA9C008AD750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C47126284AAA9C008AD750 /* Assets.xcassets */; };
 		18C4712A284AAA9C008AD750 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C47129284AAA9C008AD750 /* Preview Assets.xcassets */; };
+		18C4713A284AAB86008AD750 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47139284AAB86008AD750 /* TutorialView.swift */; };
+		18C4713C284AAC12008AD750 /* MedicationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4713B284AAC12008AD750 /* MedicationsList.swift */; };
+		18C4713E284AAC26008AD750 /* MedicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4713D284AAC26008AD750 /* MedicationData.swift */; };
+		18C47140284AAC33008AD750 /* RSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4713F284AAC33008AD750 /* RSI.swift */; };
+		18C47142284AAC46008AD750 /* Handtevy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47141284AAC46008AD750 /* Handtevy.swift */; };
+		18C47144284AAC54008AD750 /* MedicationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47143284AAC54008AD750 /* MedicationDetail.swift */; };
+		18C47146284AAC67008AD750 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C47145284AAC67008AD750 /* Launch Screen.storyboard */; };
+		18C47148284AAD3D008AD750 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47147284AAD3D008AD750 /* ContentView.swift */; };
+		18C4714A284AAE35008AD750 /* MedicationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47149284AAE35008AD750 /* MedicationsList.swift */; };
+		18C4714C284AAE7C008AD750 /* MedicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4714B284AAE7C008AD750 /* MedicationData.swift */; };
+		18C4714E284AAE97008AD750 /* MedicationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4714D284AAE97008AD750 /* MedicationDetail.swift */; };
+		18C47150284AAEB1008AD750 /* Handtevy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4714F284AAEB1008AD750 /* Handtevy.swift */; };
+		18C47152284AAECB008AD750 /* RSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C47151284AAECA008AD750 /* RSI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +78,6 @@
 /* Begin PBXFileReference section */
 		18C47102284AAA9A008AD750 /* Formu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Formu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C47105284AAA9A008AD750 /* FormuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormuApp.swift; sourceTree = "<group>"; };
-		18C47107284AAA9A008AD750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18C47109284AAA9A008AD750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C4710C284AAA9A008AD750 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18C47110284AAA9A008AD750 /* Formu WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Formu WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +89,19 @@
 		18C47126284AAA9C008AD750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C47129284AAA9C008AD750 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18C4712B284AAA9C008AD750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C47139284AAB86008AD750 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		18C4713B284AAC12008AD750 /* MedicationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsList.swift; sourceTree = "<group>"; };
+		18C4713D284AAC26008AD750 /* MedicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationData.swift; sourceTree = "<group>"; };
+		18C4713F284AAC33008AD750 /* RSI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSI.swift; sourceTree = "<group>"; };
+		18C47141284AAC46008AD750 /* Handtevy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handtevy.swift; sourceTree = "<group>"; };
+		18C47143284AAC54008AD750 /* MedicationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetail.swift; sourceTree = "<group>"; };
+		18C47145284AAC67008AD750 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		18C47147284AAD3D008AD750 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18C47149284AAE35008AD750 /* MedicationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsList.swift; sourceTree = "<group>"; };
+		18C4714B284AAE7C008AD750 /* MedicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationData.swift; sourceTree = "<group>"; };
+		18C4714D284AAE97008AD750 /* MedicationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetail.swift; sourceTree = "<group>"; };
+		18C4714F284AAEB1008AD750 /* Handtevy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handtevy.swift; sourceTree = "<group>"; };
+		18C47151284AAECA008AD750 /* RSI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +145,15 @@
 		18C47104284AAA9A008AD750 /* Formu */ = {
 			isa = PBXGroup;
 			children = (
+				18C47145284AAC67008AD750 /* Launch Screen.storyboard */,
+				18C47139284AAB86008AD750 /* TutorialView.swift */,
 				18C47105284AAA9A008AD750 /* FormuApp.swift */,
-				18C47107284AAA9A008AD750 /* ContentView.swift */,
+				18C4713B284AAC12008AD750 /* MedicationsList.swift */,
+				18C4713D284AAC26008AD750 /* MedicationData.swift */,
+				18C47147284AAD3D008AD750 /* ContentView.swift */,
+				18C47143284AAC54008AD750 /* MedicationDetail.swift */,
+				18C4713F284AAC33008AD750 /* RSI.swift */,
+				18C47141284AAC46008AD750 /* Handtevy.swift */,
 				18C47109284AAA9A008AD750 /* Assets.xcassets */,
 				18C4710B284AAA9A008AD750 /* Preview Content */,
 			);
@@ -150,6 +181,11 @@
 			children = (
 				18C47120284AAA9B008AD750 /* ContentView.swift */,
 				18C47122284AAA9B008AD750 /* FormuApp.swift */,
+				18C47149284AAE35008AD750 /* MedicationsList.swift */,
+				18C4714B284AAE7C008AD750 /* MedicationData.swift */,
+				18C4714D284AAE97008AD750 /* MedicationDetail.swift */,
+				18C4714F284AAEB1008AD750 /* Handtevy.swift */,
+				18C47151284AAECA008AD750 /* RSI.swift */,
 				18C47124284AAA9B008AD750 /* ComplicationController.swift */,
 				18C47126284AAA9C008AD750 /* Assets.xcassets */,
 				18C4712B284AAA9C008AD750 /* Info.plist */,
@@ -268,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C47146284AAC67008AD750 /* Launch Screen.storyboard in Resources */,
 				18C4710D284AAA9A008AD750 /* Preview Assets.xcassets in Resources */,
 				18C4710A284AAA9A008AD750 /* Assets.xcassets in Resources */,
 			);
@@ -297,8 +334,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C47108284AAA9A008AD750 /* ContentView.swift in Sources */,
+				18C4713C284AAC12008AD750 /* MedicationsList.swift in Sources */,
+				18C47144284AAC54008AD750 /* MedicationDetail.swift in Sources */,
+				18C47148284AAD3D008AD750 /* ContentView.swift in Sources */,
+				18C47140284AAC33008AD750 /* RSI.swift in Sources */,
 				18C47106284AAA9A008AD750 /* FormuApp.swift in Sources */,
+				18C4713A284AAB86008AD750 /* TutorialView.swift in Sources */,
+				18C4713E284AAC26008AD750 /* MedicationData.swift in Sources */,
+				18C47142284AAC46008AD750 /* Handtevy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C4714A284AAE35008AD750 /* MedicationsList.swift in Sources */,
 				18C47121284AAA9B008AD750 /* ContentView.swift in Sources */,
+				18C47152284AAECB008AD750 /* RSI.swift in Sources */,
 				18C47123284AAA9B008AD750 /* FormuApp.swift in Sources */,
 				18C47125284AAA9B008AD750 /* ComplicationController.swift in Sources */,
+				18C4714C284AAE7C008AD750 /* MedicationData.swift in Sources */,
+				18C4714E284AAE97008AD750 /* MedicationDetail.swift in Sources */,
+				18C47150284AAEB1008AD750 /* Handtevy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +497,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Formu WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Formu WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Formu_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,7 +505,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielortiz.Formu.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -465,7 +513,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -481,7 +529,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Formu WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Formu WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Formu_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -489,7 +537,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielortiz.Formu.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -498,7 +546,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -516,7 +564,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Formu WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.danielortiz.Formu;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielortiz.Formu.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -524,7 +572,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -542,7 +590,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Formu WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.danielortiz.Formu;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielortiz.Formu.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -551,7 +599,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -569,20 +617,23 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielortiz.Formu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -600,20 +651,23 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielortiz.Formu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

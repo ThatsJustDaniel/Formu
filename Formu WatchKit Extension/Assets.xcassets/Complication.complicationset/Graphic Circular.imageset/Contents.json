@@ -1,10 +1,12 @@
 {
   "images" : [
     {
+      "filename" : "app icon-1.png",
       "idiom" : "watch",
       "scale" : "2x"
     },
     {
+      "filename" : "app icon-2.png",
       "idiom" : "watch",
       "scale" : "2x",
       "screen-width" : ">183"
