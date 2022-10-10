@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
     @State private var showWalkthrough = false
     //set to true when testing and comment out the on "OnAppear" mode
     
@@ -27,49 +26,53 @@ struct ContentView: View {
     
     
     var body: some View {
-           
+        
 
         NavigationView {
-            
-            
-            
+
+
             ZStack {
+                
+
                 Color(hex: "073B4C")
                     .edgesIgnoringSafeArea(.all)
-                
-                
+
+
+
                 List {
-                    
+
                     ForEach(formuTitle.indices, id: \.self) { index in
-                        
+
                         ZStack(alignment: .leading) {
-                            
-                            
+
                             NavigationLink(destination: navigationLinks[index]) {
 
                                 EmptyView()
                             }
                             .opacity(0)
-                            
+
                             ExtractedView(imageName: formuImages[index], name: formuTitle[index])
-                            
+
                         }
-                        
-                        
-                        
+
+
+
                     }
                     .listRowSeparator(.hidden)
                     .listRowBackground(Color(hex: "073B4C"))
                     //blue color
-                    
+
                 }
+
                 .listStyle(.plain)
-//                .navigationTitle("formu")
-                
-    }
-            
+                .navigationTitle("formu")
+
 
     }
+
+
+    }
+        
         .sheet(isPresented: $showWalkthrough) {
             TutorialView()
         }
@@ -77,7 +80,7 @@ struct ContentView: View {
             showWalkthrough = hasViewedWalkthrough ? false : true
         }
         .foregroundColor(.black)
-
+        
 }
         
         
@@ -153,5 +156,22 @@ extension Color {
             blue:  Double(b) / 255,
             opacity: Double(a) / 255
         )
+    }
+}
+
+//IOS 16 CHANGES:
+//With the new SwiftUI update in iOS 16 List no longer depends on UITableView. We need to update the UIcollectionReusableView background color.
+
+extension UICollectionReusableView {
+    override open var backgroundColor: UIColor? {
+        get { .clear }
+        set { }
+
+        // default separators use same color as background
+        // so to have it same but new (say red) it can be
+        // used as below, otherwise we just need custom separators
+        //
+        // set { super.backgroundColor = .red }
+
     }
 }

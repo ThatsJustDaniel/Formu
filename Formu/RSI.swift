@@ -11,7 +11,7 @@ import SwiftUI
 
 struct RSI: View {
     
-     init() { UITableView.appearance().backgroundColor = UIColor(hex: 0x073B4C) }
+     init() { UICollectionView.appearance().backgroundColor = UIColor(hex: 0x073B4C) }
     
     @State var editMode: EditMode = .active
     
@@ -92,7 +92,7 @@ struct RSI: View {
             .listStyle(.insetGrouped)
             .environment(\.editMode, $editMode)
             Spacer()
-                    
+//
             
         
     }

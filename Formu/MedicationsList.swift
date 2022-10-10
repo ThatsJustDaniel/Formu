@@ -18,6 +18,7 @@ struct MedicationsList: View {
         ZStack {
             Color(hex: "073B4C")
                 .edgesIgnoringSafeArea(.all)
+            
         
  
         List(medications) { medication in
